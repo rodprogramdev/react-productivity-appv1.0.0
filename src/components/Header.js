@@ -8,8 +8,8 @@ const Header = ({appTitle}) => {
                 <h1>
                     {appTitle}
                 </h1>
-                <Button  />    
-                
+                <Button testText='Show' />    
+               
         </header>
     )
     

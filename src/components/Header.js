@@ -8,7 +8,7 @@ const Header = ({appTitle}) => {
                 <h1>
                     {appTitle}
                 </h1>
-                <Button testText='Show' />    
+                <Button dynamicText='Show' />    
                
         </header>
     )

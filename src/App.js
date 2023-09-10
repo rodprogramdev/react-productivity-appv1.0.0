@@ -3,6 +3,7 @@ import './App.css';
 import AppBar from './components/AppBar';
 import Header from './components/Header';
 import Tasks from './components/Tasks';
+import BottomNavigation from './components/BottomNavigation';
 import {useState} from 'react';
 // ROOT APP GLOBAL STATE PARENT COMPONENT
 
@@ -32,10 +33,17 @@ function App() {
   return (
     <>
       <AppBar />
-      <div className="header__container animate__animated animate__bounce">
-        <Header appTitle='Productivity App' />
-        <Tasks />
+      <header id="header">
+        <div className="header__container animate__animated animate__bounce">
+          <Header appTitle='Productivity App' />
+          <Tasks />
+        </div>
+      </header>
+      
+      <div className="bottomNav">
+      <BottomNavigation />
       </div>
+      
     </>
     
   );

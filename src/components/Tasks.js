@@ -3,7 +3,7 @@ const Tasks = ({taskList}) => {
   return (
     <>
         {taskList.map((task)=>(
-          <h3 key={task.idRef}>{task.taskText}</h3>
+         <Task key={task.idRef} task={task} />
         ))}
     </>
     

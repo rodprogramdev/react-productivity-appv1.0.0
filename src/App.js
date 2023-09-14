@@ -36,8 +36,9 @@ function App() {
   // ADD TASK
 
   // DELETE
-  const deleteTask = () => {
-
+  const deleteTask = (idRef) => {
+    alert('test deleteTask method', idRef);
+    console.log('This is a test to delete a task code block ' + idRef);
   }
 
   // TOGGLE / SHOW OR HIDE FORMS
@@ -52,7 +53,7 @@ function App() {
         <Router>
           <div className="header__container animate__animated animate__bounce">
           <Header appTitle='Productivity App' />
-          <Tasks taskList={taskList} />
+          <Tasks taskList={taskList} onDeleteTask={deleteTask} />
           <Routes>
             <Route path='/version' element={<AppVersion />}/>
           </Routes>

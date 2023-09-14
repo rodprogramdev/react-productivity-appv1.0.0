@@ -6,9 +6,15 @@ const ShowHideSection = () => {
     console.log(eventObject);
 }
 
-  return (
-    <Button dynamicText='Show' onClickProp={onClick} />   
+  return (<>
+  <Button dynamicText='Show' onClickProp={onClick} />   
+  <Button dynamicText='Test1' onClickProp={onClick} />   
+  <Button dynamicText='Test2' onClickProp={onClick} />   
+  <Button dynamicText='Test3' onClickProp={onClick} />   
+  </>
   )
+  
+  
    
 
     

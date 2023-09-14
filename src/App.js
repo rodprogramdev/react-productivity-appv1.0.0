@@ -37,8 +37,11 @@ function App() {
 
   // DELETE
   const deleteTask = (idRef) => {
-    alert('test deleteTask method', idRef);
-    console.log('This is a test to delete a task code block ' + idRef);
+    // alert('test deleteTask method', idRef);
+    // console.log('This is a test to delete a task code block ' + idRef);
+    setTasks(
+      taskList.filter((task) => task.idRef !== idRef)
+    )
   }
 
   // TOGGLE / SHOW OR HIDE FORMS

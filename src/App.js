@@ -81,11 +81,12 @@ function App() {
           </div>
          
         </Router>
-      </header>
-      
-      <div className="bottomNav">
+        <div className="bottomNav">
       <BottomNavigation />
       </div>
+      </header>
+      
+      
       
     </>
     

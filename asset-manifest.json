@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-productivity-appv1.0.0/static/css/main.7f4f8bda.css",
-    "main.js": "/react-productivity-appv1.0.0/static/js/main.198a9af5.js",
+    "main.css": "/react-productivity-appv1.0.0/static/css/main.ddfecd9f.css",
+    "main.js": "/react-productivity-appv1.0.0/static/js/main.2775bcdb.js",
     "static/js/787.b9fb81a4.chunk.js": "/react-productivity-appv1.0.0/static/js/787.b9fb81a4.chunk.js",
     "index.html": "/react-productivity-appv1.0.0/index.html",
-    "main.7f4f8bda.css.map": "/react-productivity-appv1.0.0/static/css/main.7f4f8bda.css.map",
-    "main.198a9af5.js.map": "/react-productivity-appv1.0.0/static/js/main.198a9af5.js.map",
+    "main.ddfecd9f.css.map": "/react-productivity-appv1.0.0/static/css/main.ddfecd9f.css.map",
+    "main.2775bcdb.js.map": "/react-productivity-appv1.0.0/static/js/main.2775bcdb.js.map",
     "787.b9fb81a4.chunk.js.map": "/react-productivity-appv1.0.0/static/js/787.b9fb81a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f4f8bda.css",
-    "static/js/main.198a9af5.js"
+    "static/css/main.ddfecd9f.css",
+    "static/js/main.2775bcdb.js"
   ]
 }

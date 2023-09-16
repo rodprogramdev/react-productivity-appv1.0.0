@@ -1,11 +1,13 @@
 import React from 'react';
 import {FaTimes} from 'react-icons/fa';
+import Modal from './Modal';
 
 const Task = ({task,onDeleteTask}) => {
   return (
     <div className="task">
-        <h3>{task.taskText} <FaTimes style={{color:'red', cursor:'pointer'}} onClick={()=>onDeleteTask(task.idRef)}/></h3>
+        <h3>{task.taskText} </h3>
         <h3>{task.day}</h3>
+        <Modal task={task} onDeleteTask={onDeleteTask}/>
     </div>
   )
 }

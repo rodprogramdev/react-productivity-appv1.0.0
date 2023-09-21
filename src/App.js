@@ -73,7 +73,7 @@ function App() {
         <Router>
           <div className="header__container animate__animated animate__bounce">
           <Header appTitle='Productivity App' />
-          <Tasks taskList={taskList} onDeleteTask={deleteTask} />
+          {taskList.length ? <Tasks taskList={taskList} onDeleteTask={deleteTask} /> : <h4>Add more tasks here</h4>}
           <Routes>
             <Route path='/version' element={<AppVersion />}/>
           </Routes>
